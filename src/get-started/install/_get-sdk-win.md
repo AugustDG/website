@@ -1,5 +1,15 @@
 ## Get the Flutter SDK
 
+If you don't want to install a fixed version of the installation 
+bundle, you can skip steps 1 and 2. Instead, get the source code 
+from the [Flutter repo][] on 
+GitHub, and change branches or tags as needed. For example:
+
+```batchfile
+C:\src>git clone https://github.com/flutter/flutter.git -b stable
+```
+Otherwise:
+
  1. Download the following installation bundle to get the latest
     {{site.sdk.channel}} release of the Flutter SDK:
 
@@ -20,15 +30,6 @@
   Do not install Flutter in a directory like 
   `C:\Program Files\` that requires elevated privileges.
 {{site.alert.end}}
-
-If you don't want to install a fixed version of the installation 
-bundle, you can skip steps 1 and 2. Instead, get the source code 
-from the [Flutter repo][] on 
-GitHub, and change branches or tags as needed. For example:
-
-```batchfile
-C:\src>git clone https://github.com/flutter/flutter.git -b stable
-```
 
 You are now ready to run Flutter commands in the Flutter Console.
 
